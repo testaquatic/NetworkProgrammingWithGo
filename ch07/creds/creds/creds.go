@@ -59,7 +59,7 @@ func main() {
 		_ = s.Close()
 	}()
 
-	fmt.Println("Listening on %s ...\n", socket)
+	fmt.Printf("Listening on %s ...\n", socket)
 
 	for {
 		conn, err := s.AcceptUnix()
