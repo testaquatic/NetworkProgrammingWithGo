@@ -1,7 +1,0 @@
-go 1.24.1
-
-use (
-	./caddy
-	./caddy-restrict-prefix
-	./caddy-toml-adapter
-)
