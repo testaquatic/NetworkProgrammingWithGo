@@ -1,0 +1,12 @@
+go 1.24.1
+
+use (
+	./client
+	./cmd
+	./gob
+	./housework
+	./housework/v1
+	./json
+	./protobuf
+	./server
+)
