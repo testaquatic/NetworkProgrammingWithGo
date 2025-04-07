@@ -22,7 +22,7 @@ var (
 		[]string{},
 	)
 
-	writeErrors metrics.Counter = prometheus.NewCounterFrom(
+	WriteErrors metrics.Counter = prometheus.NewCounterFrom(
 		prom.CounterOpts{
 			Namespace: *Namespace,
 			Subsystem: *Subsystem,
